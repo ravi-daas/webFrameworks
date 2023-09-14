@@ -1,0 +1,232 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+
+nav {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: blue; */
+    height: 40px;
+    font-size: larger;
+}
+
+ul {
+    display: flex;
+}
+
+#left {
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 500px;
+}
+
+#right {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 100px;
+}
+
+#logo {
+    font-style: italic;
+    /* margin-top: 5px; */
+    font-weight: bolder;
+    font-size:xx-large
+}
+
+input[type='search'] {
+    height: 28px;
+    width: 600px;
+    margin-top: 2px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+i{
+    margin-right: 5px;
+}
+
+#product{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#product > a{
+    margin: 10px;
+    /* border: 2px solid red; */
+}
+
+.p-desc > h4{
+    text-align: center;
+    font-size:14px;
+}
+
+#banner > img{
+    margin-top: 20px;
+    width: 1470px;
+}
+
+#productElec{
+    margin-top: 20px;
+}
+
+
+#productElec > span{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#productElecShow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.pe-img > img {
+    width: 200px;
+    height: 200px;
+}
+
+#productElecShow > a{
+    margin: 10px;
+}
+
+#productHome {
+    margin-top: 20px;
+}
+
+#productHome > span{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.thspan {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.tdspan {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+#productHomeShow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#productHomeShow > a{
+    margin: 10px;
+}
+
+#productMonsoon {
+    margin-top: 20px;
+}
+
+#productMonsoon > span{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#productMonShow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#productMonShow > a{
+    margin: 10px;
+}
+
+#Footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left:50px;
+}
+
+#Footer > div > span{
+    font-size: 20px;
+}
+
+#Footer > div > ul {
+    margin-top: 10px;
+}
+
+#about > ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#help > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#policy > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#social > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#mail > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#address > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot{
+    margin: 10px;
+    padding: 10px;
+}
+
+#table{
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.tables{
+    margin: 10px;
+    padding: 10px;
+}
+
+.tableimg{
+    width: 200px;
+    border: 2px solid red;
+    height: 200px;
+}
+
+#bigimg{
+    width: 500px;
+    height: 400px;
+}
